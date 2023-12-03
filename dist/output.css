@@ -903,6 +903,10 @@ video {
     border-start-start-radius: 1rem;
     border-end-start-radius: 1rem;
   }
+
+  .md\:rounded-es-2xl {
+    border-end-start-radius: 1rem;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -931,6 +935,10 @@ video {
   .lg\:rounded-tr-2xl {
     border-top-right-radius: 1rem;
   }
+
+  .lg\:rounded-tl-2xl {
+    border-top-left-radius: 1rem;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -942,5 +950,19 @@ video {
   .xl\:rounded-r-2xl {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+  }
+
+  .xl\:rounded-es-2xl {
+    border-end-start-radius: 1rem;
+  }
+}
+
+@media (min-width: 1201px) {
+  .\32xl\:rounded-es-2xl {
+    border-end-start-radius: 1rem;
+  }
+
+  .\32xl\:rounded-tr-2xl {
+    border-top-right-radius: 1rem;
   }
 }
